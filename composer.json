@@ -1,0 +1,17 @@
+{
+    "name": "15204/project",
+ 
+    "require": {
+        "php": ">=7.0.0",
+        "filp/whoops": "^2.15",
+        "symfony/http-foundation": "^7.1",
+        "symfony/routing": "^7.1",
+        "rdlowrey/auryn": "^1.4",
+        "mustache/mustache": "^2.14"   
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
